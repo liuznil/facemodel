@@ -1,0 +1,23 @@
+这个包可以检测到人脸468个点。查看这个包的源码，发现要下载3个模型文件：
+
+facemesh：https://tfhub.dev/mediapipe/tfjs-model/facemesh/1/default/1
+iris：https://tfhub.dev/mediapipe/tfjs-model/iris/1/default/2
+blazeface：https://tfhub.dev/tensorflow/tfjs-model/blazeface/1/default/1
+
+很不幸，大概https://tfhub.dev被国内封锁了或者我们被封锁了，下载不了。
+
+找来找去，找到中国区的这个网站：https://hub.tensorflow.google.cn/s?deployment-format=tfjs，分别去下载下来：
+
+facemesh：https://r2---sn-2x3elnes.gvt1.com/edgedl/tfhub-tfjs-modules/mediapipe/tfjs-model/facemesh/1/default/1.tar.gz
+iris：https://r2---sn-2x3elnes.gvt1.com/edgedl/tfhub-tfjs-modules/mediapipe/tfjs-model/iris/1/default/2.tar.gz
+blazeface：https://r2---sn-2x3elnes.gvt1.com/edgedl/tfhub-tfjs-modules/tensorflow/tfjs-model/blazeface/1/default/1.tar.gz
+
+
+//const c_modelUrl='https://tfhub.dev/mediapipe/tfjs-model/facemesh/1/default/1';
+const c_modelUrl='https://???.tcloudbaseapp.com/model/facemesh/model.json';
+//const c_irisModelUrl='https://tfhub.dev/mediapipe/tfjs-model/iris/1/default/2';
+const c_irisModelUrl='https://???.tcloudbaseapp.com/model/iris/model.json';
+//const c_detectorModelUrl:'https://tfhub.dev/tensorflow/tfjs-model/blazeface/1/default/1';
+const c_detectorModelUrl='https://???.tcloudbaseapp.com/model/blazeface/model.json';
+
+
